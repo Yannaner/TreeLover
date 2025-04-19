@@ -32,7 +32,7 @@ export default function PostDetail() {
         onAdd={text =>
           setComments([
             ...comments,
-            { author: { displayName: 'You', uid: 'me' }, text }
+            { author: { displayName: 'You', uid: 'me', email: 'you@example.com' }, text }
           ])
         }
       />
